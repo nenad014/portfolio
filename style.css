@@ -1,0 +1,93 @@
+body, html {
+    height: 100%;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/header.png");
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.h-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: greenyellow;
+    color: black;
+  }
+  
+
+.about {
+    width: 100%;
+    padding: 30px;
+    background-color: slategrey;
+    color: white;
+    text-align: center;
+}
+
+.skills {
+    width: 100%;
+    padding: 30px;
+    background-color: orange;
+}
+
+.portfolio {
+    width: 100%;
+    padding: 30px;
+    background-color: darkseagreen;
+}
+.education{
+    background-image: url('img/linije.png');
+    padding: 30px;
+    width: 100%;
+}
+
+.contact {
+    background-color: black;
+    color: yellowgreen;
+    text-align: justify;
+    padding: 30px;
+    width: 100%;
+}
+
+.pitanje {
+  background-color: lightslategray;
+  color: darkkhaki;
+  text-emphasis: justify;
+  padding: 30px;
+  width: 100%;
+}
+
+button{
+  text-decoration: none;
+  overflow: hidden;
+}
